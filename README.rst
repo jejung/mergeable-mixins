@@ -2,8 +2,8 @@
 Mergeable mixins
 =====
 
-mergeable mixins adds support to use of mixins in models or other types of 
-classes.    
+mergeable mixins adds support to use of mixins in Django models or other 
+types of classes.    
 The key idea here is that it removes the attribute lookup problem of the 
 multiple inheritance, and let you choose from what mixin you want to copy 
 functionalities
