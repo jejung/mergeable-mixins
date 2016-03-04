@@ -11,7 +11,7 @@ functionalities
 Quick start.
 
 You can just copy paste the contents of the __init__.py where you want to
-use, or you can install the package to use in more projects, below is one
+use, or you can install the package to use with more projects, below is a
 quick tutorial.
 
 1. Install the package by calling 
