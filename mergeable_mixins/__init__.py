@@ -35,6 +35,8 @@ class merge_mixins(object):
         for mixin in self.mixins:
             for (name, attr) in mixin.__dict__.items():
                 if not hasattr(target, name):
+                    # Django models needs this to make some magic
+                    # with the Fields classes.
                     if hasattr(attr, 'contribute_to_class'):
                         copy.deepcopy(attr).contribute_to_class(target, name)
                     else:
